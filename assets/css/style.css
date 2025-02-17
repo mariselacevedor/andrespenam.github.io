@@ -2,3 +2,15 @@ body{
     background-color: azure;
     font-family: "Satisfy", serif;
 }
+
+.presentacion{ 
+    margin-top: 50px;
+    padding: 150px;
+    background-image: url(../images/presentar.jpeg);
+    background-size: auto;
+    backface-visibility: unset;
+
+}
+
+
+
