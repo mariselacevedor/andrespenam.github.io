@@ -6,10 +6,10 @@
     <title>Andrés Peña</title>
     <link rel="shortcut icon" href="./assets/images/web-browser.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Oswald&family=Raleway:wght@300&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Oswald:wght@300&family=Raleway:wght@300&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
     
 
 </head>
@@ -24,34 +24,96 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link active fs-3" aria-current="page" href="porfolio.html">Porfolio</a>
+                    <a class="nav-link fs-3" aria-current="page" href="#sobre_mi">Sobre mí</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link fs-3" href="#">Educacion</a>
+                    <a class="nav-link fs-3" href="#educacion">Educación</a>
                     </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle fs-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Desafios
-                    </a>
-                    <ul class="dropdown-menu fs-4">
-                        <li><a class="dropdown-item" href="https://andrespenam.github.io/LandingPage/" target="_blank">Landig Page</a></li>
-                        <li><a class="dropdown-item" href="https://andrespenam.github.io/iguanapage/" target="_blank">Iguana Page</a></li>
-                        <li><a class="dropdown-item" href="https://andrespenam.github.io/Cuppon/" target="_blank">Cuppon Page</a></li>
-                        <li><a class="dropdown-item" href="https://andrespenam.github.io/fdsw-github/" target="_blank">GitHub Page</a></li>
-                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link fs-3" href="#portfolio">Portfolio</a>
+                        </li>
                 </ul>
                 </div>
             </div>
             </nav>
 
     </header>
-    <main class="presentacion">
-        <section>
+    <main>
+        <section class="presentacion">
             <h1 class="display-1 text-center pt-5">Hola!! Soy Andrés Peña</h1>
             <h2 class="text-center">"Y les presento un poco de mí y mi camino, como futuro desarrollador"</h2>
-           <p> 
+        </section>
+        <section class="datos">
+        <section id="sobre_mi">
+            <h2 class="display-1 text-center pt-5">Sobre mí</h2>
+            <p class="h3 text-center pt-3">
+                En este nuevo camino hacia la programación, eh notado la inmensa pasión que por él tengo, mis actuales experiencias se basan más en la parte del hardware y conocimientos en el área de seguridad más específico en el área de camaras de seguridad teniendo un largo y fructífero conocimiento pero la verdad quiero dar el todo en esta nueva etapa que estoy tomando y lograr todos los éxitos posibles.
+        </section>
+        <section id="educacion">
+            <h2 class="display-1 text-center pt-5">Educación</h2>
 
-           </p> 
+            <p class="parrafo h3 text-center pt-3">
+                Actualmente cursando un bootcamp en Desafío Latan en el cual hasta ahora mis conocimientos se han expandido en la parte de HTML, CSS, BOOTSTRAP y GITHUB y esperando aprender mucho más en el camino. De resto una formación normal desde mi primaria hasta 4to medio ya que la universidad no la pude concluir; cursaba Ing. En Sistemas.
+        </section>
+      </section>
+
+        <section id="portfolio">
+            <h2 class="display-1 text-center pt-5">Portfolio</h2>
+                
+            <div id="carouselExampleCaptions" class="carousel slide pt-5">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/images/Landingpage.jpg" class="d-block w-100" alt="Landingpage">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p class="text-bg-dark p-1 w-10 h2">Desafio Landing page</p>
+                      <p class="text-bg-dark p-3 h3">Primer proyecto creado a base de HTML y CSS</p>
+                      <a class="h4 text-bg-primary p-1" href="https://andrespenam.github.io/LandingPage/" target="_blank">Ver más...</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/iguanapage.jpg" class="d-block w-100" alt="iguanapage">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="h2 text-bg-dark p-1 w-10">Desafio Iguana page</h5>
+                      <p class="h3 text-bg-dark p-3">Proyecto creado a base de HTML y CSS</p>
+                      <a class="h4 text-bg-primary p-1" href="https://andrespenam.github.io/iguanapage/" target="_blank">Ver más...</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/cupponpage.jpg" class="d-block w-100" alt="cupponpage">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="h2 text-bg-dark p-1 w-10">Desafio Cuppon Page</h5>
+                      <p class="h3 text-bg-dark p-3">Proyecto creado a base de HTML y CSS implementando el framework de BOOTSTRAP</p>
+                      <a class="h4 text-bg-primary p-1" href="https://andrespenam.github.io/Cuppon/" target="_blank">Ver más...</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/githubpage.jpg" class="d-block w-100" alt="github">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h2 text-bg-dark p-1 w-10" >Desafio github</h5>
+                    <p class="h3 text-bg-dark p-3">Proyecto creado a base de HTML y CSS implementando el framework de BOOTSTRAP y la integracion de Github</p>
+                    <a class="h4 text-bg-primary p-1" href="https://andrespenam.github.io/fdsw-github/" target="_blank">Ver más...</a>
+                  </div>
+              </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+
+
+
         </section>
     </main>
     <footer>

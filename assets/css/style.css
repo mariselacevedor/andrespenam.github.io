@@ -1,6 +1,9 @@
 body{
     background-color: azure;
-    font-family: "Satisfy", serif;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .presentacion{ 
@@ -9,6 +12,14 @@ body{
     background-image: url(../images/presentar.jpeg);
     background-size: auto;
     backface-visibility: unset;
+
+}
+
+.datos p{
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic; 
 
 }
 
