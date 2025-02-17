@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Oswald&family=Raleway:wght@300&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Oswald:wght@300&family=Raleway:wght@300&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/add5bfd0c6.js" crossorigin="anonymous"></script>
     
 
 </head>
@@ -39,9 +41,54 @@
 
     </header>
     <main>
-        <section class="presentacion">
+        
+      <section id="presentacion">
             <h1 class="display-1 text-center pt-5">Hola!! Soy Andrés Peña</h1>
             <h2 class="text-center">"Y les presento un poco de mí y mi camino, como futuro desarrollador"</h2>
+        </section>
+
+        <section class="carrusel">
+          <div id="carouselExampleCaptions" class="carousel slide pt-5">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/images/Landingpage.jpg" class="d-block w-100" alt="Landingpage">
+                <div class="carousel-caption d-none d-md-block">
+                 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/iguanapage.jpg" class="d-block w-100" alt="iguanapage">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/cupponpage.jpg" class="d-block w-100" alt="cupponpage">
+                <div class="carousel-caption d-none d-md-block">
+        
+                </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/githubpage.jpg" class="d-block w-100" alt="github">
+              <div class="carousel-caption d-none d-md-block">
+                
+              </div>
+          </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </section>
         <section class="datos">
         <section id="sobre_mi">
@@ -57,67 +104,93 @@
         </section>
       </section>
 
-        <section id="portfolio">
+        <section id="portfolio container-fluid">
             <h2 class="display-1 text-center pt-5">Portfolio</h2>
-                
-            <div id="carouselExampleCaptions" class="carousel slide pt-5">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+            <section class="row pt-5">
+              <div class="col">
+                <div class="card" style="width: 22rem;">
+                <img src="./assets/images/Landingpage.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Landing page</h5>
+                <p class="card-text">Proyecto creado a base de HTML y CSS</p>
+                <a href="https://andrespenam.github.io/LandingPage/" class="btn btn-primary">Ver más...</a>
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./assets/images/Landingpage.jpg" class="d-block w-100" alt="Landingpage">
-                    <div class="carousel-caption d-none d-md-block">
-                      <p class="text-bg-dark p-1 w-10 h2">Desafio Landing page</p>
-                      <p class="text-bg-dark p-3 h3">Primer proyecto creado a base de HTML y CSS</p>
-                      <a class="h4 text-bg-primary p-1" href="https://andrespenam.github.io/LandingPage/" target="_blank">Ver más...</a>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/images/iguanapage.jpg" class="d-block w-100" alt="iguanapage">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5 class="h2 text-bg-dark p-1 w-10">Desafio Iguana page</h5>
-                      <p class="h3 text-bg-dark p-3">Proyecto creado a base de HTML y CSS</p>
-                      <a class="h4 text-bg-primary p-1" href="https://andrespenam.github.io/iguanapage/" target="_blank">Ver más...</a>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/images/cupponpage.jpg" class="d-block w-100" alt="cupponpage">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5 class="h2 text-bg-dark p-1 w-10">Desafio Cuppon Page</h5>
-                      <p class="h3 text-bg-dark p-3">Proyecto creado a base de HTML y CSS implementando el framework de BOOTSTRAP</p>
-                      <a class="h4 text-bg-primary p-1" href="https://andrespenam.github.io/Cuppon/" target="_blank">Ver más...</a>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="./assets/images/githubpage.jpg" class="d-block w-100" alt="github">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5 class="h2 text-bg-dark p-1 w-10" >Desafio github</h5>
-                    <p class="h3 text-bg-dark p-3">Proyecto creado a base de HTML y CSS implementando el framework de BOOTSTRAP y la integracion de Github</p>
-                    <a class="h4 text-bg-primary p-1" href="https://andrespenam.github.io/fdsw-github/" target="_blank">Ver más...</a>
-                  </div>
               </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 22rem;">
+                <img src="./assets/images/iguanapage.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+              <h5 class="card-title">Iguana page</h5>
+              <p class="card-text">Proyecto creado a base de HTML y CSS</p>
+              <a href="https://andrespenam.github.io/iguanapage/" class="btn btn-primary">Ver más...</a>
+                </div>
+              </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 22rem;">
+              <img src="./assets/images/cupponpage.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+              <h5 class="card-title">Cuppon Page</h5>
+              <p class="card-text">Proyecto creado a base de HTML y CSS implementando el framework de Bootstrap</p>
+            <a href="https://andrespenam.github.io/Cuppon/" class="btn btn-primary">Ver más...</a>
+              </div>
+          </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 22rem;">
+              <img src="./assets/images/githubpage.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Github Page</h5>
+            <p class="card-text">Proyecto creado a base de HTML, CSS, BOOTSTRAP e implementando el uso de github para futuros repositorios</p>
+                <a href="https://andrespenam.github.io/fdsw-github/" class="btn btn-primary">Ver más...</a>
+            </div>
+            </div>
               </div>
 
+            </section>
 
-
-
-
-        </section>
+          <section class="container-fluid">
+            <h2>Contactame para mayor informacion</h2>
+            <div class="mb-3 text-black">
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu Correo">
+            </div>
+            <div class="mb-3 text-black">
+              <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu Numero de Telefono">
+            </div>
+            <div class="mb-3 text-black">
+              <label for="exampleFormControlTextarea1" class="form-label">Breve descripcion de solicitud</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Describe brevemente tu solicitud" rows="3"></textarea>
+            </div>
+            <div class="my-3 text-end">
+              <button type="button" class="btn btn-primary">Enviar</button>
+            </div>
+            
+          </section>
+  </section>
     </main>
-    <footer>
-
+    <footer class="container-fluid">
+      <section class="bg-dark-subtle pb-3 "> 
+        <h2 class="col-12 text-center">Social</h2>
+        <div class="text-center">
+          <a href="https://github.com/andrespenam" target="_blank"><i class="fa-brands fa-square-github fa-2xl" style="color: #000000;"></i></a>
+  
+        <a href="https://api.whatsapp.com/message/SX3RU4JTRQJPH1?autoload=1&app_absent=0" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #000000;"></i></a>
+        
+      
+        <a href="https://www.instagram.com/andree_urdaneta/?hl=es" target="_blank"><i class="fa-brands fa-instagram fa-2xl" style="color: #000000;"></i></a>
+      
+        <a href="https://www.facebook.com/StormBringer1702" target="_blank"><i class="fa-brands fa-facebook fa-2xl" style="color: #000000;"></i></a>
+        </div>
+        
+        <article class="text-center">
+          Copyright 2025 © Todos los derechos reservados. Creado por: Andrés Peña
+        </article>
+    </section>
+    
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 

@@ -1,18 +1,9 @@
 body{
-    background-color: azure;
+    background-color: rgb(98, 121, 121);
     font-family: "Oswald", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-}
-
-.presentacion{ 
-    margin-top: 50px;
-    padding: 150px;
-    background-image: url(../images/presentar.jpeg);
-    background-size: auto;
-    backface-visibility: unset;
-
 }
 
 .datos p{
@@ -22,6 +13,14 @@ body{
     font-style: italic; 
 
 }
+
+#presentacion{
+    background-image: url(../images/presentar.jpeg); 
+    margin-top: 50px;
+    padding: 150px;
+}
+
+
 
 
 
